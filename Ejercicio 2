@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int Main ()
+{
+  int A=5,B=10,C;
+  C=(A++ + ++B)*2;
+  cout<<A<<B<<C;
+  return 0;
+  }
